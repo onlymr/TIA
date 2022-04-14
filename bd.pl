@@ -1,7 +1,7 @@
 :- dynamic(fact/1).
 :- [backward,forward].
 
- %Pergunta Es uma pessoa? Tranquila, Extrovertia....
+ %Pergunta Es uma pessoa? Tranquila, Extrovertida....
 
 %Base de Dados
 alojamento(hotel,hotel1,barato,alta,Braga,[atividade_descoberta],movimentado,[refeicoes_sim]).
