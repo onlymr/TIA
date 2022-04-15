@@ -20,9 +20,38 @@
 %hotel12 - Hotel do Mercado
 %hotel13 - Hotel das Salinas
 %casa1 - Bela Vila | Vila Hisbiscus
+%casa2 - Bracara guesthouse
+%casa3 - Casa do Ti Toninho
 %casa4 - Casa Lagar Da Alagoa
+%casa5 - Casa Privada
+%casa6 - Lusco Fusco
+%casa7 - Casa de Cristal
+%casa8 - Pool with a view   
+%casa9 - Casa Dom Yahya
+%casa10 - Casa Entre Serras
+%casa11 - Casa da Passagem
 
-&apartamento6 - Alojamento Pelourinho
+%apartamento1 - Conquistador Palace
+%apartamento2 - Be Smart Terrace Algarve
+%apartamento3 - Retiro das Andorinhas Termas do Gerês
+%apartamento4 - Casa dos Pombais
+%apartamento5 - Agua Hotels Vila Branca
+%apartamento6 - Alojamento Pelourinho
+%apartamento7 - São Pedro City Flat
+%apartamento8 - Casa do Refugio
+%apartamento9 - Aveiro Theater Rooms
+%apartamento10 - Aveiro City Center
+%apartamento11 - Casa Das Lages
+
+%hostel1 - Being Porto Hostel
+%hostel2 - Penedo da Saudade Suites & Hostel
+%hostel3 - A Hostel
+%hostel4 - WW Hostel & Suites
+%hostel5 - Baixa Terrace Hostel
+%hostel6 - HI Bragança | Pousada de Juventude
+%hostel7 - Hostel Abaçal
+%hostel8 - Dona Fina Guest House
+%hotel9 - HI Guimaraes - Pousada de Juventude
 
 alojamento(hotel,'Burgus Tribute & Design Hotel',barato,alta,'braga',[atividade_descoberta],movimentado,[refeicoes_sim]).
 alojamento(hotel,'Luna Hotel',barato,alta,'serra da estrela',[atividade_maritima],reservado,[refeicoes_sim]).
@@ -38,36 +67,36 @@ alojamento(hotel,'Borralha Hotel, Restaurante & Spa',barato,baixa,'vila real',[a
 alojamento(hotel,'Hotel do Mercado',medio,media,'aveiro',[atividade_maritima, atividade_descoberta],movimentado,[refeicoes_nao]).
 alojamento(hotel,'Hotel das Salinas',caro,media,'aveiro',[atividade_descoberta,atividade_maritima],reservado,[refeicoes_sim]).
 alojamento(casa,'Bela Vila | Vila Hisbiscus',caro,alta,'algarve',[atividade_maritima],movimentado,[refeicoes_sim]).
-alojamento(casa,casa2,medio,baixa,'braga',[atividade_trilhos],reservado,[refeicoes_sim]).
-alojamento(casa,casa3,caro,alta,'coimbra',[atividade_descoberta],movimentado,[refeicoes_sim]).
+alojamento(casa,'Bracara guesthouse',medio,baixa,'braga',[atividade_trilhos],reservado,[refeicoes_sim]).
+alojamento(casa,'Casa do Ti Toninho',caro,alta,'coimbra',[atividade_descoberta],movimentado,[refeicoes_sim]).
 alojamento(casa,'Casa Lagar Da Alagoa',medio,baixa,'serra da estrela',[atividade_descoberta, atividade_trilhos],reservado,[refeicoes_nao]).
-alojamento(casa,casa5,barato,baixa,'braga',[atividade_descoberta],movimentado,[refeicoes_nao]).
-alojamento(casa,casa6,medio,media,'algarve',[atividade_maritima],reservado,[refeicoes_nao]).
-alojamento(casa,casa7,caro,media,'porto',[atividade_descoberta,atividade_maritima],reservado,[refeicoes_nao]).
-alojamento(casa,casa8,medio,baixa,'coimbra',[atividade_descoberta],reservado,[refeicoes_nao]).
-alojamento(casa,casa9,barato,baixa,'covilha',[atividade_trilhos],reservado,[refeicoes_nao]).
-alojamento(casa,casa10,barato,media,'covilha',[atividade_trilhos],reservado,[refeicoes_nao]).
-alojamento(casa,casa11,barato,media,'vila real',[atividade_trilhos],reservado,[refeicoes_nao]).
-alojamento(apartamento,apartamento1,barato,media,'guimaraes',movimentado,[atividade_descoberta],[refeicoes_nao]).
-alojamento(apartamento,apartamento2,barato,baixa,'algarve',[atividade_maritima],reservado, [refeicoes_nao]).
-alojamento(apartamento,apartamento3,medio,alta,'geres',[atividade_trilhos],reservado,[refeicoes_sim]).
-alojamento(apartamento,apartamento4,caro,media,'guimaraes',[atividade_trilhos],movimentado,[refeicoes_sim]).
-alojamento(apartamento,apartamento5,medio,baixa,'algarve',[atividade_maritima],movimentado, [refeicoes_nao]).
+alojamento(casa,'Casa Privada',barato,baixa,'braga',[atividade_descoberta],movimentado,[refeicoes_nao]).
+alojamento(casa,'Casa Privada',medio,media,'algarve',[atividade_maritima],reservado,[refeicoes_nao]).
+alojamento(casa,'Casa de Cristal',caro,media,'porto',[atividade_descoberta,atividade_maritima],reservado,[refeicoes_nao]).
+alojamento(casa,'Pool with a view',medio,baixa,'coimbra',[atividade_descoberta],reservado,[refeicoes_nao]).
+alojamento(casa,'Casa Dom Yahya',barato,baixa,'covilha',[atividade_trilhos],reservado,[refeicoes_nao]).
+alojamento(casa,'Casa Entre Serras',barato,media,'covilha',[atividade_trilhos],reservado,[refeicoes_nao]).
+alojamento(casa,'Casa da Passagem',barato,media,'vila real',[atividade_trilhos],reservado,[refeicoes_nao]).
+alojamento(apartamento,'Conquistador Palace',barato,media,'guimaraes',movimentado,[atividade_descoberta],[refeicoes_nao]).
+alojamento(apartamento,'Be Smart Terrace Algarve',barato,baixa,'algarve',[atividade_maritima],reservado, [refeicoes_nao]).
+alojamento(apartamento,'Retiro das Andorinhas Termas do Gerês',medio,alta,'geres',[atividade_trilhos],reservado,[refeicoes_sim]).
+alojamento(apartamento,'Casa dos Pombais',caro,media,'guimaraes',[atividade_trilhos],movimentado,[refeicoes_sim]).
+alojamento(apartamento,'Agua Hotels Vila Branca',medio,baixa,'algarve',[atividade_maritima],movimentado, [refeicoes_nao]).
 alojamento(apartamento,'Alojamento Pelourinho',barato,baixa,'serra da estrela',[atividade_descoberta, atividade_trilhos],reservado,[refeicoes_nao]).
-alojamento(apartamento,apartamento7,medio,alta,'vila real',[atividade_trilhos],reservado, [refeicoes_sim]).
-alojamento(apartamento,apartamento8,barato,media,'covilha',[atividade_trilhos],reservado,[refeicoes_nao]).
-alojamento(apartamento,apartamento9,medio,baixa,'aveiro',[atividade_descoberta, atividade_maritima],reservado,[refeicoes_nao]).
-alojamento(apartamento,apartamento10,caro,alta,'aveiro',[atividade_descoberta, atividade_maritima],reservado,[refeicoes_nao]).
-alojamento(apartamento,apartamento11,barato,media,'covilha',[atividade_trilhos],reservado,[refeicoes_nao]).
-alojamento(hostel,hostel1,barato,media,'porto',[atividade_maritima],movimentado,[refeicoes_nao]).
-alojamento(hostel,hostel2,barato,media,'coimbra',[atividade_trilhos, atividade_descoberta],reservado,[refeicoes_nao]).
-alojamento(hostel,hostel3,barato,alta,'vila real',[atividade_trilhos],reservado,[refeicoes_nao]).
-alojamento(hostel,hostel4,medio,baixa,'coimbra',[atividade_descoberta],movimentado,[refeicoes_nao]).
-alojamento(hostel,hostel5,caro,baixa,'algarve',[atividade_maritima],reservado,[refeicoes_nao]).
-lojamento(hostel,hostel6,caro,alta,'braganca',[atividade_trilhos, atividade_descoberta],reservado,[refeicoes_sim]).
-alojamento(hostel,hostel7,barato,media,'braganca',[atividade_descoberta],movimentado,[refeicoes_nao]).
-alojamento(hostel,hostel8,medio,alta,'braganca',[atividade_descoberta, atividade_trilhos],reservado,[refeicoes_sim]).
-alojamento(hostel,hostel9,barato,media,'guimaraes',[atividade_descoberta],movimentado,[refeicoes_nao]).
+alojamento(apartamento,'São Pedro City Flat',medio,alta,'vila real',[atividade_trilhos],reservado, [refeicoes_sim]).
+alojamento(apartamento,'Casa do Refugio',barato,media,'covilha',[atividade_trilhos],reservado,[refeicoes_nao]).
+alojamento(apartamento,'Aveiro Theater Rooms',medio,baixa,'aveiro',[atividade_descoberta, atividade_maritima],reservado,[refeicoes_nao]).
+alojamento(apartamento,'Aveiro City Center',caro,alta,'aveiro',[atividade_descoberta, atividade_maritima],reservado,[refeicoes_nao]).
+alojamento(apartamento,'Casa Das Lages',barato,media,'covilha',[atividade_trilhos],reservado,[refeicoes_nao]).
+alojamento(hostel,'Being Porto Hostel',barato,media,'porto',[atividade_maritima],movimentado,[refeicoes_nao]).
+alojamento(hostel,'Penedo da Saudade Suites & Hostel',barato,media,'coimbra',[atividade_trilhos, atividade_descoberta],reservado,[refeicoes_nao]).
+alojamento(hostel,'A Hostel',barato,alta,'vila real',[atividade_trilhos],reservado,[refeicoes_nao]).
+alojamento(hostel,'WW Hostel & Suites',medio,baixa,'coimbra',[atividade_descoberta],movimentado,[refeicoes_nao]).
+alojamento(hostel,'Baixa Terrace Hostel',caro,baixa,'algarve',[atividade_maritima],reservado,[refeicoes_nao]).
+lojamento(hostel,'HI Bragança - Pousada de Juventude',caro,alta,'braganca',[atividade_trilhos, atividade_descoberta],reservado,[refeicoes_sim]).
+alojamento(hostel,'Hostel Abaçal',barato,media,'braganca',[atividade_descoberta],movimentado,[refeicoes_nao]).
+alojamento(hostel,'Dona Fina Guest House',medio,alta,'braganca',[atividade_descoberta, atividade_trilhos],reservado,[refeicoes_sim]).
+alojamento(hostel,'HI Guimaraes - Pousada de Juventude',barato,media,'guimaraes',[atividade_descoberta],movimentado,[refeicoes_nao]).
 
 
 
