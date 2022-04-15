@@ -4,6 +4,8 @@
  %Pergunta Es uma pessoa? Tranquila, Extrovertia....
 
 %Base de Dados
+%alojamento(tipo, nome, preco, classificacao, zona, atividades, ambiente, refeicoes)
+
 alojamento(hotel,hotel1,barato,alta,'braga',[atividade_descoberta],movimentado,[refeicoes_sim]).
 alojamento(hotel,hotel2,barato,alta,'serra da estrela',[atividade_maritima],reservado,[refeicoes_sim]).
 alojamento(hotel,hotel3,caro,alta,'algarve',[atividade_maritima],movimentado,[refeicoes_nao]).
