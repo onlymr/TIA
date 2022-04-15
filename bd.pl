@@ -48,7 +48,7 @@
 %hostel3 - A Hostel
 %hostel4 - WW Hostel & Suites
 %hostel5 - Baixa Terrace Hostel
-%hostel6 - HI Bragança | Pousada de Juventude
+%hostel6 - HI Bragança - Pousada de Juventude
 %hostel7 - Hostel Abaçal
 %hostel8 - Dona Fina Guest House
 %hotel9 - HI Guimaraes - Pousada de Juventude
