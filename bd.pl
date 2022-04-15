@@ -10,6 +10,7 @@
 %hotel8 - Inatel Manteigas
 &casa4 - Casa Lagar Da Alagoa
 &apartamento6 - Alojamento Pelourinho
+
 alojamento(hotel,hotel1,barato,alta,'braga',[atividade_descoberta],movimentado,[refeicoes_sim]).
 alojamento(hotel,'Luna Hotel',barato,alta,'serra da estrela',[atividade_maritima],reservado,[refeicoes_sim]).
 alojamento(hotel,hotel3,caro,alta,'algarve',[atividade_maritima],movimentado,[refeicoes_nao]).
