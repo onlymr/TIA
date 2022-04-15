@@ -38,6 +38,7 @@ if estadia_sozinho and barato then hostel.
 if estadia_familiar and caro then alta.
 if atividade_maritima and caro then Algarve.
 if alta and alto then caro.
+if baixa and baixo then barato.
 if alto and estadia_romatica then caro.
 if atividade_trilhos and estadia_sozinho then reservado.
 if refeicoes_nao and barato then hostel.
