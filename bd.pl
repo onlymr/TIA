@@ -1,19 +1,23 @@
 :- dynamic(fact/1).
 :- [backward,forward].
 
- %Pergunta Es uma pessoa? Tranquila, Extrovertia....
+ %Pergunta Es uma pessoa? Tranquila, Extrovertdia....
 
 %Base de Dados
 %alojamento(tipo, nome, preco, classificacao, zona, atividades, ambiente, refeicoes)
 
+%hotel2 - Luna Hotel
+%hotel8 - Inatel Manteigas
+&casa4 - Casa Lagar Da Alagoa
+&apartamento6 - Alojamento Pelourinho
 alojamento(hotel,hotel1,barato,alta,'braga',[atividade_descoberta],movimentado,[refeicoes_sim]).
-alojamento(hotel,hotel2,barato,alta,'serra da estrela',[atividade_maritima],reservado,[refeicoes_sim]).
+alojamento(hotel,'Luna Hotel',barato,alta,'serra da estrela',[atividade_maritima],reservado,[refeicoes_sim]).
 alojamento(hotel,hotel3,caro,alta,'algarve',[atividade_maritima],movimentado,[refeicoes_nao]).
 alojamento(hotel,hotel4,caro,baixa,'covilha',[atividade_trilhos],reservado,[refeicoes_sim]).
 alojamento(hotel,hotel5,medio,media,'guimarães',[atividade_descoberta],movimentado,[refeicoes_sim]).
 alojamento(hotel,hotel6,medio,baixa,'braga',[atividade_descoberta],movimentado,[refeicoes_sim]).
 alojamento(hotel,hotel7,barato,baixa,'porto',[atividade_descoberta],movimentado,[refeicoes_nao]).
-alojamento(hotel,hotel8,barato,baixa,'serra da estrela',[atividade_trilhos],reservado,[refeicoes_sim]).
+alojamento(hotel,'Inatel Manteigas',barato,baixa,'serra da estrela',[atividade_trilhos],reservado,[refeicoes_sim]).
 alojamento(hotel,hotel9,caro,alta,'coimbra',[atividade_descoberta],reservado,[refeicoes_sim]).
 alojamento(hotel,hotel10,caro,alta,'porto',[atividade_descoberta, atividade_maritima],reservado,[refeicoes_sim]).
 alojamento(hotel,hotel11,barato,baixa,'vila real',[atividade_trilhos],movimentado,[refeicoes_sim]).
@@ -22,7 +26,7 @@ alojamento(hotel,hotel13,caro,media,'aveiro',[atividade_descoberta,atividade_mar
 alojamento(casa,casa1,caro,alta,'algarve',[atividade_maritima],movimentado,[refeicoes_sim]).
 alojamento(casa,casa2,medio,baixa,'braga',[atividade_trilhos],reservado,[refeicoes_sim]).
 alojamento(casa,casa3,caro,alta,'coimbra',[atividade_descoberta],movimentado,[refeicoes_sim]).
-alojamento(casa,casa4,medio,baixa,'serra da estrela',[atividade_descoberta, atividade_trilhos],reservado,[refeicoes_nao]).
+alojamento(casa,'Casa Lagar Da Alagoa',medio,baixa,'serra da estrela',[atividade_descoberta, atividade_trilhos],reservado,[refeicoes_nao]).
 alojamento(casa,casa5,barato,baixa,'braga',[atividade_descoberta],movimentado,[refeicoes_nao]).
 alojamento(casa,casa6,medio,media,'algarve',[atividade_maritima],reservado,[refeicoes_nao]).
 alojamento(casa,casa7,caro,media,'porto',[atividade_descoberta,atividade_maritima],reservado,[refeicoes_nao]).
@@ -35,7 +39,7 @@ alojamento(apartamento,apartamento2,barato,baixa,'algarve',[atividade_maritima],
 alojamento(apartamento,apartamento3,medio,alta,'geres',[atividade_trilhos],reservado,[refeicoes_sim]).
 alojamento(apartamento,apartamento4,caro,media,'guimaraes',[atividade_trilhos],movimentado,[refeicoes_sim]).
 alojamento(apartamento,apartamento5,medio,baixa,'algarve',[atividade_maritima],movimentado, [refeicoes_nao]).
-alojamento(apartamento,apartamento6,barato,baixa,'serra da estrela',[atividade_descoberta, atividade_trilhos],reservado,[refeicoes_nao]).
+alojamento(apartamento,'Alojamento Pelourinho',barato,baixa,'serra da estrela',[atividade_descoberta, atividade_trilhos],reservado,[refeicoes_nao]).
 alojamento(apartamento,apartamento7,medio,alta,'vila real',[atividade_trilhos],reservado, [refeicoes_sim]).
 alojamento(apartamento,apartamento8,barato,media,'covilha',[atividade_trilhos],reservado,[refeicoes_nao]).
 alojamento(apartamento,apartamento9,medio,baixa,'aveiro',[atividade_descoberta, atividade_maritima],reservado,[refeicoes_nao]).
