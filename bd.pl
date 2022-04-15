@@ -6,14 +6,16 @@
 %Base de Dados
 %alojamento(tipo, nome, preco, classificacao, zona, atividades, ambiente, refeicoes)
 
+%hotel1 - Burgus Tribute & Design Hotel
 %hotel2 - Luna Hotel
+%hotel3 - Hotel da Rocha
 %hotel8 - Inatel Manteigas
 &casa4 - Casa Lagar Da Alagoa
 &apartamento6 - Alojamento Pelourinho
 
-alojamento(hotel,hotel1,barato,alta,'braga',[atividade_descoberta],movimentado,[refeicoes_sim]).
+alojamento(hotel,'Burgus Tribute & Design Hotel',barato,alta,'braga',[atividade_descoberta],movimentado,[refeicoes_sim]).
 alojamento(hotel,'Luna Hotel',barato,alta,'serra da estrela',[atividade_maritima],reservado,[refeicoes_sim]).
-alojamento(hotel,hotel3,caro,alta,'algarve',[atividade_maritima],movimentado,[refeicoes_nao]).
+alojamento(hotel,'Hotel da Rocha',caro,alta,'algarve',[atividade_maritima],movimentado,[refeicoes_nao]).
 alojamento(hotel,hotel4,caro,baixa,'covilha',[atividade_trilhos],reservado,[refeicoes_sim]).
 alojamento(hotel,hotel5,medio,media,'guimarães',[atividade_descoberta],movimentado,[refeicoes_sim]).
 alojamento(hotel,hotel6,medio,baixa,'braga',[atividade_descoberta],movimentado,[refeicoes_sim]).
