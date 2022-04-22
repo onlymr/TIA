@@ -51,7 +51,7 @@
 %hostel6 - HI Bragança - Pousada de Juventude
 %hostel7 - Hostel Abaçal
 %hostel8 - Dona Fina Guest House
-%hotel9 - HI Guimaraes - Pousada de Juventude
+%hotel9 - HI Guimaraes - Pousada de Juventude.
 
 alojamento(hotel,'Burgus Tribute & Design Hotel',barato,alta,'braga',[atividade_descoberta],movimentado,[refeicoes_sim]).
 alojamento(hotel,'Luna Hotel',barato,alta,'serra da estrela',[atividade_maritima],reservado,[refeicoes_sim]).
